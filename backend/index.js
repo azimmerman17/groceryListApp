@@ -3,6 +3,7 @@ const express = require('express')
 const mongoose = require('mongoose')
 
 const app = express()
+const db = require('./models/index')
 const cors = require('cors')
 
 // middleware
@@ -12,6 +13,7 @@ app.use(cors())
 
 
 // controllers and routes
+
 
 
 //d db connection
