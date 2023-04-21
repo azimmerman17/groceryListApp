@@ -3,14 +3,13 @@ const express = require('express')
 const mongoose = require('mongoose')
 
 const app = express()
+const db = require('./models/index')
 const cors = require('cors')
 
 // middleware
 app.set('view engine', 'jsx')
 app.use(express.json())
 app.use(cors())
-
-// controllers and routes
 
 
 // Mongo Connection for future use when need to connect
