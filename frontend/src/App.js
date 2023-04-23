@@ -1,11 +1,24 @@
+
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+
 import logo from './logo.svg';
 import './App.css';
+import NavBar from './Components/NavBar'
+import AddUser from './Components/AddUser'
 
 
 function App() {
   return (
     <div className="App">
-      Grocery App
+      <Router>
+        <NavBar />
+        <h1>Grocery App</h1>
+        <Routes>
+          {/* <Route exact path='/' element={} /> */}
+          <Route path='/user/addUser' element={<AddUser />} /> 
+          {/* <Route path='/food' element={} /> */}
+        </Routes>
+      </Router>
     </div>
   );
 }
