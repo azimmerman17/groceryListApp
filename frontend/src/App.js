@@ -5,7 +5,11 @@ import logo from './logo.svg';
 import './App.css';
 import NavBar from './components/NavBar'
 import AddUser from './components/addUser'
+
 import Home from './components/home';
+
+import AddFood from './components/AddFood';
+
 
 
 function App() {
@@ -18,7 +22,9 @@ function App() {
           <Route exact path='/' element={<Home />} /> 
           {/* <Route exact path='/' element={} /> */}
           <Route path='/user/addUser' element={<AddUser />} /> 
-          {/* <Route path='/food' element={} /> */}
+          {/* <Route path='/foods' element={} /> */}
+          <Route path='/foods/new' element={<AddFood />} />
+          {/* <Route path='/grocerylist' element={} */}
         </Routes>
       </Router>
     </div>
