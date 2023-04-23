@@ -21,7 +21,7 @@ const userSchema = new mongoose.Schema({
   }],
   // for future use when adding authentication
   // password_digest:
-  // role:
+  // role:s
 })
 
 module.exports = mongoose.model('User', userSchema)
