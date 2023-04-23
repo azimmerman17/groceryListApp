@@ -14,11 +14,11 @@ router.get('/', async (req, res) => {
 
 // POST
 router.post('/', async (req, res) => {
-  let { password, ...rest } = red.body
+  let { password, ...rest } = req.body
 
   const user = await User.create({
     ...rest,
-    password_disgest: await bcrypt.hash(password, 10)
+    password_digest: await bcrypt.hash(password, 10)
   })
   res.json(user)
 })

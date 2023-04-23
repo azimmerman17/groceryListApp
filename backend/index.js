@@ -1,7 +1,7 @@
 require('dotenv').config()
 const express = require('express')
 const mongoose = require('mongoose')
-
+const methodOveride = require('method-override')
 const app = express()
 const db = require('./models/index')
 const cors = require('cors')
@@ -10,7 +10,8 @@ const cors = require('cors')
 app.set('view engine', 'jsx')
 app.use(express.json())
 app.use(cors())
-
+app.use(express.urlencoded({ extended: true }))
+app.use(methodOveride('_method'))
 
 // controllers and routes
 const userRoutes = require('./controllers/user')
