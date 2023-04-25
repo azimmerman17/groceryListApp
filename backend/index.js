@@ -6,9 +6,11 @@ const app = express()
 const db = require('./models/index')
 const cors = require('cors')
 
+
 // middleware
 app.set('view engine', 'jsx')
 app.use(express.json())
+
 app.use(cors())
 app.use(express.urlencoded({ extended: true }))
 app.use(methodOveride('_method'))
@@ -16,9 +18,11 @@ app.use(methodOveride('_method'))
 // controllers and routes
 const userRoutes = require('./controllers/user')
 const authRoutes = require('./controllers/authentication')
+const foodRoutes = require('./controllers/food')
 
 app.use('/user', userRoutes)
 app.use('/auth', authRoutes)
+app.use('/food', foodRoutes)
 
 //db connection
 mongoose.set('strictQuery',true);
