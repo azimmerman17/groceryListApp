@@ -19,9 +19,10 @@ const userSchema = new mongoose.Schema({
   grocery_list: [{
     type: mongoose.Schema.Types.ObjectId, ref: 'Food'
   }],
-  // for future use when adding authentication
-  // password_digest:
-  // role:
+  password_digest: {
+    type: String
+  }
+  
 })
 
 module.exports = mongoose.model('User', userSchema)
