@@ -27,7 +27,7 @@ router.post('/', async (req, res) => {
 
 router.put('/:id', async (req, res) => {
     const {id} = req.params
-    await Food.findOneAndUpdate(id, req.body)
+    await Food.findbyIdAndUpdate(id, req.body)
     res.json(req.body)
 })
 
