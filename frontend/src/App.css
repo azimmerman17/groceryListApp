@@ -37,4 +37,15 @@
   }
 }
 
+.width-50 {
+  width: 50%;
+  margin:auto
+}
+
+.width-80 {
+  width: 80%;
+  margin:auto
+}
+
+
 
