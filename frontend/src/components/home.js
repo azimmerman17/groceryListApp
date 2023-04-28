@@ -24,7 +24,7 @@ const home = () => {
                 <br />
                 <input className="btn btn-primary btn-lg" type="submit" value="Sign in" />
             </form>
-            </main> 
+        </main> 
         </div>  
     )
 }

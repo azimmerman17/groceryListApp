@@ -7,6 +7,7 @@ import AddUser from './components/addUser'
 import Home from './components/home';
 
 import AddFood from './components/AddFood';
+import FoodList from './components/FoodList'
 
 
 
@@ -20,9 +21,9 @@ function App() {
           <Route exact path='/' element={<Home />} /> 
           {/* <Route exact path='/' element={} /> */}
           <Route path='/user/addUser' element={<AddUser />} /> 
-          {/* <Route path='/foods' element={} /> */}
+          {/*<Route path='/foods' element={<foods />} />  */}
           <Route path='/foods/new' element={<AddFood />} />
-          {/* <Route path='/grocerylist' element={} */}
+          <Route path='/foods/FoodList' element={<FoodList />} />
         </Routes>
       </Router>
     </div>
