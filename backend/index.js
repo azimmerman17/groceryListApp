@@ -5,12 +5,14 @@ const methodOveride = require('method-override')
 const app = express()
 const db = require('./models/index')
 const cors = require('cors')
+const defineCurrentUser = require('./middleware/defineCurrentUser')
+
 
 
 // middleware
 app.set('view engine', 'jsx')
 app.use(express.json())
-
+app.use(defineCurrentUser)
 app.use(cors())
 app.use(express.urlencoded({ extended: true }))
 app.use(methodOveride('_method'))
