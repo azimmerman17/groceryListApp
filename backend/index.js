@@ -29,8 +29,8 @@ app.use('/food', foodRoutes)
 //db connection
 mongoose.set('strictQuery',true);
 mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true})
-    .then(() => console.log('DB connected'))
-    .catch(err => console.error(err));
+    .then(() => console.log('DB connected', 'test'))
+    .catch(err => console.error("test", err));
 
 // Configue Port and listen
 const PORT = process.env.PORT || 8080
