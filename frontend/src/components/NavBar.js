@@ -1,9 +1,10 @@
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-
+import SignOut from './SignOut';
 
 const NavBar = () => {
+
   return (
     <Navbar bg="dark" variant="dark" expand="lg">
       <Container>
@@ -14,6 +15,7 @@ const NavBar = () => {
             <Nav.Link className="text-white" href="/foods/">Grocery List</Nav.Link>
             <Nav.Link className="text-white" href="/user/addUser">New User</Nav.Link>           
           </Nav>
+          <SignOut />
         </Navbar.Collapse>
       </Container>
     </Navbar>

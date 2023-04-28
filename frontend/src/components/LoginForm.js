@@ -1,10 +1,8 @@
 import { useContext, useState } from "react"
-import { useNavigate } from "react-router"
 import { CurrentUser } from "../Contexts/currentUser"
 
 
 const LoginForm = () => {
-  const navigate = useNavigate()
   const { setCurrentUser, currentUser } = useContext(CurrentUser)
 
   const [credentials, setCredentials] = useState({
