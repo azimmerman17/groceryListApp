@@ -12,7 +12,8 @@ const NavBar = () => {
         <Navbar.Toggle className="text-white" aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link className="text-white" href="/foods/">Food List</Nav.Link>
+            <Nav.Link className="text-white" href="/user/list">Grocery List</Nav.Link>
+            <Nav.Link className="text-white" href="/foods/foodlist">Add to Grocery List</Nav.Link>
             <Nav.Link className="text-white" href="/user/addUser">New User</Nav.Link>           
           </Nav>
           <SignOut />
