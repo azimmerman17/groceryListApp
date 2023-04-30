@@ -27,7 +27,7 @@ const GroceryList = () => {
     const { grocery_list } = currentUser
     grocery_list.forEach(item => {
       foodList.filter(food => item === food._id)
-      groceryList.push(foodList)
+      groceryList.push(foodList[0])
     });
     // setSelectedList(groceryList)
   }
@@ -36,15 +36,18 @@ const GroceryList = () => {
     e.preventDefault()
   }
   const showList = groceryList.map(item => {
-      const { _id } = item
-      return (
-        <Stack key={_id} gap={2}>
-          <GroceryListItem item={item} selectedList={selectedList} setSelectedList={setSelectedList}/>
-        </Stack>
-      )
+    try {
+      console.log(item)
+        const { _id } = item
+        return (
+          <Stack key={_id} gap={2}>
+            <GroceryListItem item={item} selectedList={selectedList} setSelectedList={setSelectedList}/>
+          </Stack>
+        )
+    } catch (error) {}
 
     })
-
+    console.log(groceryList)
     const showButton = () => {
       //  this button does not work
       return (
@@ -56,7 +59,7 @@ const GroceryList = () => {
 
   return (
     <Form>
-      {groceryList.length ? showList : <h3>There are no items on your grocery list</h3> }
+      {groceryList.length > 0 ? showList : <h3>There are no items on your grocery list</h3> }
       {/* {groceryList.length ? showButton() : null } */}
     </Form>
   )

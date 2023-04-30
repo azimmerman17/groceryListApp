@@ -4,7 +4,7 @@ import Form from 'react-bootstrap/Form';
 
 
 const GroceryListItem = ({ item, selectedList, setSelectedList }) => {
-  const { name, aisle, type, description, _id } = item[0]
+  const { name, aisle, type, description, _id } = item
 
   const handleClick = (e) => {
     e.target.checked ? setSelectedList([...selectedList, _id]) : (
