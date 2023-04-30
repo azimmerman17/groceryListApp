@@ -37,7 +37,7 @@ const LoginForm = () => {
           <h4>Welcome {currentUser.first_name} {currentUser.last_name}</h4>
         )
       : <div>
-        <h2>Login</h2>
+      <h2>Sign in</h2>
         {errorMessage !== null
           ? (
             <div className="alert alert-danger" role="alert">

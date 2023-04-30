@@ -12,7 +12,6 @@ const SignOut = () => {
     setCurrentUser(null)
   }
 
-  console.log(currentUser)
   return (
     <div>
       {currentUser ? (
