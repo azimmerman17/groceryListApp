@@ -25,6 +25,11 @@ router.post('/', async (req, res) => {
     res.json(req.body)
 })
 
+// route for seeding the db with food items
+router.post('/seed', async (rec, res) => {
+    await Food.insertMany(foodSeedData)
+})
+
 router.put('/:id', async (req, res) => {
     const {id} = req.params
     await Food.findbyIdAndUpdate(id, req.body)
