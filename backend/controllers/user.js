@@ -14,7 +14,6 @@ router.get('/', async (req, res) => {
 
 // POST
 router.post('/', async (req, res) => {
-  console.log(req.body)
   let { password, ...rest } = req.body
 
   const user = await User.create({
@@ -22,6 +21,12 @@ router.post('/', async (req, res) => {
     password_digest: await bcrypt.hash(password, 10)
   })
   res.json(user)
+})
+
+// PUT - update users List
+router.put('/:id', async (req, res) => {
+  const { id } = req.params
+  // const { selected }
 })
 
 module.exports = router
