@@ -1,6 +1,6 @@
 const router = require('express').Router()
 const db = require('../models/index')
-const { Food } = db
+const { Food, Recipes } = db
 
 
 router.get('/', async (req, res) => {
