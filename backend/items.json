@@ -1,0 +1,858 @@
+[{
+    "name":"Birthday Cake",
+    "asile":1,
+    "type":"Bakery",
+    "description":"Vanilia cake with chocolate icing- serves 4"
+
+},
+{
+    "name":"Chocolate Cake",
+    "asile":1,
+    "type":"Bakery",
+    "description":"Chocolate cake and icing- serves 4"
+
+},
+{
+    "name":"Cheesecake",
+    "asile":1,
+    "type":"Bakery",
+    "description":"New York style cheesecake- serves 6"
+
+},
+{
+    "name":"Cupcakes",
+    "asile":1,
+    "type":"Bakery",
+    "description":"1 dozen chocolate cupcakes with vanillia icing"
+
+},
+{
+    "name":"Assorted Danishes",
+    "asile":1,
+    "type":"Bakery",
+    "description":"Half doezen fruit and cheese danishes"
+
+},
+{
+    "name":"Macaroons",
+    "asile":1,
+    "type":"Bakery",
+    "description":"1 dozen assorted flavors"
+
+},
+{
+    "name":"Scones",
+    "asile":1,
+    "type":"Bakery",
+    "description":"1 does assorted flavors"
+
+},
+{
+    "name":"Apple Pie",
+    "asile":1,
+    "type":"Bakery",
+    "description":"Serves 8"
+
+},
+{
+    "name":"Peach Cobbler",
+    "asile":1,
+    "type":"Bakery",
+    "description":"Serves 8"
+
+},
+{
+    "name":"Brownies",
+    "asile":1,
+    "type":"Bakery",
+    "description":"1 dozen brownies"
+
+},
+{
+    "name":"SourDough Loaf",
+    "asile":1,
+    "type":"Breads",
+    "description":""
+
+},
+{
+    "name":"Baguette",
+    "asile":1,
+    "type":"Breads",
+    "description":""
+
+},
+{
+    "name":"Wholewheat Loaf",
+    "asile":1,
+    "type":"Breads",
+    "description":""
+
+},
+{
+    "name":"Pumpkin Loaf",
+    "asile":1,
+    "type":"Breads",
+    "description":""
+
+},
+{
+    "name":"Chibatta",
+    "asile":1,
+    "type":"Breads",
+    "description":""
+
+},
+{
+    "name":"Challah",
+    "asile":1,
+    "type":"Breads",
+    "description":""
+
+},
+{
+    "name":"Rye Loaf",
+    "asile":1,
+    "type":"Breads",
+    "description":""
+
+},
+{
+    "name":"Brioche Buns",
+    "asile":1,
+    "type":"Breads",
+    "description":"! dozen buns"
+
+},
+{
+    "name":"Flatbread",
+    "asile":1,
+    "type":"Breads",
+    "description":"4 individual flatbreads"
+
+},
+{
+    "name":"Bagels",
+    "asile":1,
+    "type":"Breads",
+    "description":"Half dozen assorted flavors"
+
+},
+{
+    "name":"New Your Strip",
+    "asile":2,
+    "type":"Meat",
+    "description":"8oz cut"
+
+},
+{
+    "name":"Bacon",
+    "asile":2,
+    "type":"Meat",
+    "description":"24 strips"
+
+},
+{
+    "name":"Kielbasa",
+    "asile":2,
+    "type":"Meat",
+    "description":""
+
+},
+{
+    "name":"Pork Loin",
+    "asile":2,
+    "type":"Meat",
+    "description":"12oz"
+
+},
+{
+    "name":"Liver",
+    "asile":2,
+    "type":"Meat",
+    "description":"4oz"
+
+},
+{
+    "name":"Ribeye",
+    "asile":2,
+    "type":"Meat",
+    "description":"12oz"
+
+},
+{
+    "name":"Lamb Chops",
+    "asile":2,
+    "type":"Meat",
+    "description":"8oz"
+
+},
+{
+    "name":"Chicken Breast",
+    "asile":2,
+    "type":"Meat",
+    "description":"6oz"
+
+},
+{
+    "name":"Duck Breast",
+    "asile":2,
+    "type":"Meat",
+    "description":"4oz"
+
+},
+{
+    "name":"Chicken Thighs",
+    "asile":2,
+    "type":"Meat",
+    "description":"8oz"
+
+},
+{
+    "name":"Salmon",
+    "asile":2,
+    "type":"Seafood",
+    "description":"6oz"
+
+},
+{
+    "name":"Tuna",
+    "asile":2,
+    "type":"Seafood",
+    "description":"6oz"
+
+},
+{
+    "name":"Crab Legs",
+    "asile":2,
+    "type":"Seafood",
+    "description":"By the pound"
+
+},
+{
+    "name":"Lobster",
+    "asile":2,
+    "type":"Seafood",
+    "description":"By the pound"
+
+},
+{
+    "name":"Oysters",
+    "asile":2,
+    "type":"Seafood",
+    "description":"1 dozen"
+
+},
+{
+    "name":"Clams",
+    "asile":2,
+    "type":"Seafood",
+    "description":"1 dozen"
+
+},
+{
+    "name":"Swordfish",
+    "asile":2,
+    "type":"Seafood",
+    "description":"6oz"
+
+},
+{
+    "name":"Flounder",
+    "asile":2,
+    "type":"Seafood",
+    "description":"8oz"
+
+},
+{
+    "name":"Talipia",
+    "asile":2,
+    "type":"Seafood",
+    "description":"8oz"
+
+},
+{
+    "name":"Grouper",
+    "asile":2,
+    "type":"Seafood",
+    "description":"8oz"
+
+},
+{
+    "name":"Spaghetti",
+    "asile":3,
+    "type":"Pasta",
+    "description":"8oz"
+
+},
+{
+    "name":"Penne",
+    "asile":3,
+    "type":"Pasta",
+    "description":"16oz"
+
+},
+{
+    "name":"Linguini",
+    "asile":3,
+    "type":"Pasta",
+    "description":"8oz"
+
+},
+{
+    "name":"Fettuccine",
+    "asile":3,
+    "type":"Pasta",
+    "description":"8oz"
+
+},
+{
+    "name":"Bow Tie",
+    "asile":3,
+    "type":"Pasta",
+    "description":"16oz"
+
+},
+{
+    "name":"Elbow Macaroni",
+    "asile":3,
+    "type":"Pasta",
+    "description":"16oz"
+
+},
+{
+    "name":"Ziti",
+    "asile":3,
+    "type":"Pasta",
+    "description":"8oz"
+
+},
+{
+    "name":"Rigatoni",
+    "asile":3,
+    "type":"Pasta",
+    "description":"16oz"
+
+},
+{
+    "name":"Pipette",
+    "asile":3,
+    "type":"Pasta",
+    "description":"16oz"
+
+},
+{
+    "name":"Rice",
+    "asile":3,
+    "type":"Pasta",
+    "description":"8oz"
+
+},
+{
+    "name":"Tomato Pasta Sauce",
+    "asile":3,
+    "type":"Sauces",
+    "description":"8oz"
+
+},
+{
+    "name":"Alfredo",
+    "asile":3,
+    "type":"Sauces",
+    "description":"8oz"
+
+},
+{
+    "name":"Pesto",
+    "asile":3,
+    "type":"Sauces",
+    "description":"8oz"
+
+},{
+    "name":"Hollandise",
+    "asile":3,
+    "type":"Sauces",
+    "description":"8oz"
+
+},{
+    "name":"Tatziki",
+    "asile":3,
+    "type":"Sauces",
+    "description":"8oz"
+
+},{
+    "name":"Tahini",
+    "asile":3,
+    "type":"Sauces",
+    "description":"8oz"
+
+},{
+    "name":"Cocktail",
+    "asile":3,
+    "type":"Sauces",
+    "description":"8oz"
+
+},{
+    "name":"Tarter",
+    "asile":3,
+    "type":"Sauces",
+    "description":"8oz"
+
+},{
+    "name":"Fry Sauce",
+    "asile":3,
+    "type":"Sauces",
+    "description":"8oz"
+
+},{
+    "name":"Bechamel",
+    "asile":3,
+    "type":"Sauces",
+    "description":"8oz"
+
+},
+{
+    "name":"Ranch",
+    "asile":4,
+    "type":"Salad Dressings and Condiments",
+    "description":"8oz"
+
+},
+{
+    "name":"Mayonaise",
+    "asile":4,
+    "type":"Salad Dressings and Condiments",
+    "description":"8oz"
+
+},
+{
+    "name":"Ketchup",
+    "asile":4,
+    "type":"Salad Dressings and Condiments",
+    "description":"8oz"
+
+},
+{
+    "name":"Ranch Dressing",
+    "asile":4,
+    "type":"Salad Dressings and Condiments",
+    "description":"8oz"
+
+},
+{
+    "name":"Yellow Mustard",
+    "asile":4,
+    "type":"Salad Dressings and Condiments",
+    "description":"8oz"
+
+},{
+    "name":"Greek Dressing",
+    "asile":4,
+    "type":"Salad Dressings and Condiments",
+    "description":"8oz"
+
+},{
+    "name":"BBQ Sauce",
+    "asile":4,
+    "type":"Salad Dressings and Condiments",
+    "description":"8oz"
+
+},{
+    "name":"1000 Island Dressing",
+    "asile":4,
+    "type":"Salad Dressings and Condiments",
+    "description":"8oz"
+
+},{
+    "name":"Balsamic Vinagrette",
+    "asile":4,
+    "type":"Salad Dressings and Condiments",
+    "description":"8oz"
+
+},{
+    "name":"Ceasar Dressing",
+    "asile":4,
+    "type":"Salad Dressings and Condiments",
+    "description":"8oz"
+
+},
+{
+    "name":"Eggs",
+    "asile":5,
+    "type":"Breakfast",
+    "description":"1 dozen"
+
+},
+{
+    "name":"Sausage",
+    "asile":5,
+    "type":"Breakfast",
+    "description":""
+
+},
+{
+    "name":"Pancake Mix",
+    "asile":5,
+    "type":"Breakfast",
+    "description":"16oz box"
+
+},
+{
+    "name":"Maple Syrup",
+    "asile":5,
+    "type":"Breakfast",
+    "description":"8oz"
+
+},{
+    "name":"Fruit Loops",
+    "asile":5,
+    "type":"Breakfast",
+    "description":"32oz"
+
+},{
+    "name":"Instant Oatmeal",
+    "asile":5,
+    "type":"Breakfast",
+    "description":"12 packets"
+
+},{
+    "name":"Cream of Wheat",
+    "asile":5,
+    "type":"Breakfast",
+    "description":"16oz"
+
+},{
+    "name":"Home Fries",
+    "asile":5,
+    "type":"Breakfast",
+    "description":"64oz"
+
+},{
+    "name":"Frozen Waffles",
+    "asile":5,
+    "type":"Breakfast",
+    "description":"1 dozen"
+
+},{
+    "name":"English Muffins",
+    "asile":5,
+    "type":"Breakfast",
+    "description":""
+
+},
+{
+    "name":"Chicken Noodle",
+    "asile":6,
+    "type":"Soups",
+    "description":"8oz"
+
+},{
+    "name":"Tomato",
+    "asile":6,
+    "type":"Soups",
+    "description":"8oz"
+
+},{
+    "name":"Beef and Barley",
+    "asile":6,
+    "type":"Soups",
+    "description":"8oz"
+
+},{
+    "name":"Chicken and Rice",
+    "asile":6,
+    "type":"Soups",
+    "description":"8oz"
+
+},{
+    "name":"Vegetable",
+    "asile":6,
+    "type":"Soups",
+    "description":"8oz"
+
+},{
+    "name":"",
+    "asile":6,
+    "type":"Soups",
+    "description":"8oz"
+
+},{
+    "name":"Clam Chowder",
+    "asile":6,
+    "type":"Soups",
+    "description":"8oz"
+
+},{
+    "name":"red Pepper Bisque",
+    "asile":6,
+    "type":"Soups",
+    "description":"8oz"
+
+},{
+    "name":"Beef and Vegetable",
+    "asile":6,
+    "type":"Soups",
+    "description":"8oz"
+
+},{
+    "name":"Italian wedding",
+    "asile":6,
+    "type":"Soups",
+    "description":"8oz"
+
+},
+{
+    "name":"Green Beans",
+    "asile":6,
+    "type":"Canned Goods",
+    "description":"8oz"
+
+},
+{
+    "name":"Tuna",
+    "asile":6,
+    "type":"Canned Goods",
+    "description":"8oz"
+
+},{
+    "name":"Corn",
+    "asile":6,
+    "type":"Canned Goods",
+    "description":"8oz"
+
+},{
+    "name":"Black Beans",
+    "asile":6,
+    "type":"Canned Goods",
+    "description":"8oz"
+
+},{
+    "name":"Beets",
+    "asile":6,
+    "type":"Canned Goods",
+    "description":"8oz"
+
+},{
+    "name":"Chickpeas",
+    "asile":6,
+    "type":"Canned Goods",
+    "description":"8oz"
+
+},{
+    "name":"Refried Beans",
+    "asile":6,
+    "type":"Canned Goods",
+    "description":"8oz"
+
+},{
+    "name":"Peas",
+    "asile":6,
+    "type":"Canned Goods",
+    "description":"8oz"
+
+},{
+    "name":"Carrots",
+    "asile":6,
+    "type":"Canned Goods",
+    "description":"8oz"
+
+},{
+    "name":"Tomatoes",
+    "asile":6,
+    "type":"Canned Goods",
+    "description":"8oz"
+
+},
+{
+    "name":"Meatballs",
+    "asile":7,
+    "type":"Frozen Foods",
+    "description":"32oz"
+
+},
+{
+    "name":"TV Dinner",
+    "asile":7,
+    "type":"Frozen Foods",
+    "description":"1 box"
+
+},{
+    "name":"Mozzerella Sticks",
+    "asile":7,
+    "type":"Frozen Foods",
+    "description":"24 count"
+
+},{
+    "name":"Veggie Burgers",
+    "asile":7,
+    "type":"Frozen Foods",
+    "description":"12 count"
+
+},{
+    "name":"Pizza Rolls",
+    "asile":7,
+    "type":"Frozen Foods",
+    "description":"32oz"
+
+},{
+    "name":"Pot Stickers",
+    "asile":7,
+    "type":"Frozen Foods",
+    "description":"12 count"
+
+},{
+    "name":"Uncrustables",
+    "asile":7,
+    "type":"Frozen Foods",
+    "description":"12 count"
+
+},{
+    "name":"Ice Cream",
+    "asile":7,
+    "type":"Frozen Foods",
+    "description":"1 pint"
+
+},{
+    "name":"French Fries",
+    "asile":7,
+    "type":"Frozen Foods",
+    "description":"64oz"
+
+},{
+    "name":"Mixed Barry Bag",
+    "asile":7,
+    "type":"Frozen Foods",
+    "description":"32oz"
+
+},{
+    "name":"Pizza",
+    "asile":7,
+    "type":"Frozen Foods",
+    "description":"12in pie"
+
+},{
+    "name":"Shredded Cheddar Cheese",
+    "asile":8,
+    "type":"Dairy",
+    "description":"32oz"
+
+},
+{
+    "name":"Salted Butter",
+    "asile":8,
+    "type":"Dairy",
+    "description":"16oz"
+
+},{
+    "name":"Cottage Cheese",
+    "asile":8,
+    "type":"Dairy",
+    "description":"16oz"
+
+},{
+    "name":"Spreadable Butter",
+    "asile":8,
+    "type":"Dairy",
+    "description":"8oz"
+
+},{
+    "name":"Fresh Mozzarella",
+    "asile":8,
+    "type":"Dairy",
+    "description":"4oz"
+
+},{
+    "name":"Colby Jack Cheese",
+    "asile":8,
+    "type":"Dairy",
+    "description":"8oz"
+
+},{
+    "name":"Milk",
+    "asile":8,
+    "type":"Dairy",
+    "description":"64oz"
+
+},{
+    "name":"Sour Cream",
+    "asile":8,
+    "type":"Dairy",
+    "description":"8oz"
+
+},{
+    "name":"Greek Yogurt",
+    "asile":8,
+    "type":"Dairy",
+    "description":"120z"
+
+},{
+    "name":"French Yogurt",
+    "asile":8,
+    "type":"Dairy",
+    "description":"6 pack"
+
+},{
+    "name":"Lemon-Lime Soda",
+    "asile":9,
+    "type":"Drinks",
+    "description":"12 cans"
+
+},
+{
+    "name":"Soy Milk",
+    "asile":9,
+    "type":"Drinks",
+    "description":"32oz"
+
+},{
+    "name":"Juice Boxes",
+    "asile":9,
+    "type":"Drinks",
+    "description":"6 boxes"
+
+},{
+    "name":"Bottled Water",
+    "asile":9,
+    "type":"Drinks",
+    "description":"24 bottles"
+
+},{
+    "name":"Soda Water",
+    "asile":9,
+    "type":"Drinks",
+    "description":"12 cans"
+
+},{
+    "name":"Flavored Water",
+    "asile":9,
+    "type":"Drinks",
+    "description":"12 bottles"
+
+},{
+    "name":"Grape Juice",
+    "asile":9,
+    "type":"Drinks",
+    "description":"32oz"
+
+},{
+    "name":"Oat Milk",
+    "asile":9,
+    "type":"Drinks",
+    "description":"32oz"
+
+},{
+    "name":"Cola",
+    "asile":9,
+    "type":"Drinks",
+    "description":"12 cans"
+
+},{
+    "name":"Orange Juice ",
+    "asile":9,
+    "type":"Drinks",
+    "description":"32oz"
+
+}
+]
+
+
