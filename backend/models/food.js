@@ -18,8 +18,6 @@ const foodSchema = new mongoose.Schema({
       'Meat',
       'Seafood',
       'Pasta',
-      'Rice',
-      'Oils',
       'Sauces',
       'Salad Dressings and Condiments',
       'Breakfast',
@@ -27,7 +25,8 @@ const foodSchema = new mongoose.Schema({
       'Canned Goods',
       'Frozen Foods',
       'Dairy',
-      'Eggs'
+      'Drinks'
+
     ]
   },
   description: {
