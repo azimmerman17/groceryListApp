@@ -1,10 +1,13 @@
 import { useEffect, useState } from "react";
 import ListGroup from 'react-bootstrap/ListGroup';
 
+import Recipes from "../Recipes";
+
 
 const FoodList = () => {
  let [fooditems, setFoodItems] =useState([])
 
+ console.log(Recipes)
  useEffect(() => {
   const fetchData = async () => {
    const response = await fetch(`http://localhost:8080/food`)
