@@ -1,13 +1,15 @@
 # Grocery App
 
 Grocery App is a shopping checklist to simplify grocery shopping. This app incorporates a traditional shopping list and adds a way to directly pull ingredients from 
-Describes the inspiration for the application.
-Describes how to use the application.
+recipes. After sigining in you can add to your list from the drop down menu or add new items as needed. Then as you shop you can check off the items as you collect them. 
 
 ## Members
-Hannah Haupricht [![github](https://cloud.githubusercontent.com/assets/17016297/18839843/0e06a67a-83d2-11e6-993a-b35a182500e0.png)][1] [![linkedin](https://cloud.githubusercontent.com/assets/17016297/18839848/0fc7e74e-83d2-11e6-8c6a-277fc9d6e067.png)][2]
-Ashley McMaken
-Andrew Zimmerman
+**Hannah Haupricht**
+[![github](https://cloud.githubusercontent.com/assets/17016297/18839843/0e06a67a-83d2-11e6-993a-b35a182500e0.png)][1] [![linkedin](https://cloud.githubusercontent.com/assets/17016297/18839848/0fc7e74e-83d2-11e6-8c6a-277fc9d6e067.png)][2]
+**Ashley McMaken**
+[![github](https://cloud.githubusercontent.com/assets/17016297/18839843/0e06a67a-83d2-11e6-993a-b35a182500e0.png)][3] [![linkedin](https://cloud.githubusercontent.com/assets/17016297/18839848/0fc7e74e-83d2-11e6-8c6a-277fc9d6e067.png)][4]
+**Andrew Zimmerman**
+[![github](https://cloud.githubusercontent.com/assets/17016297/18839843/0e06a67a-83d2-11e6-993a-b35a182500e0.png)][5] [![linkedin](https://cloud.githubusercontent.com/assets/17016297/18839848/0fc7e74e-83d2-11e6-8c6a-277fc9d6e067.png)][6]
 
 ## Languages and Tools
 
