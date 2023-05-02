@@ -6,8 +6,10 @@ recipes. After sigining in you can add to your list from the drop down menu or a
 ## Members
 **Hannah Haupricht**
 [![github](https://cloud.githubusercontent.com/assets/17016297/18839843/0e06a67a-83d2-11e6-993a-b35a182500e0.png)][1] [![linkedin](https://cloud.githubusercontent.com/assets/17016297/18839848/0fc7e74e-83d2-11e6-8c6a-277fc9d6e067.png)][2]
+---
 **Ashley McMaken**
 [![github](https://cloud.githubusercontent.com/assets/17016297/18839843/0e06a67a-83d2-11e6-993a-b35a182500e0.png)][3] [![linkedin](https://cloud.githubusercontent.com/assets/17016297/18839848/0fc7e74e-83d2-11e6-8c6a-277fc9d6e067.png)][4]
+---
 **Andrew Zimmerman**
 [![github](https://cloud.githubusercontent.com/assets/17016297/18839843/0e06a67a-83d2-11e6-993a-b35a182500e0.png)][5] [![linkedin](https://cloud.githubusercontent.com/assets/17016297/18839848/0fc7e74e-83d2-11e6-8c6a-277fc9d6e067.png)][6]
 
@@ -25,7 +27,9 @@ recipes. After sigining in you can add to your list from the drop down menu or a
 ## Issues
 
 
-
+## Sources
+Clickable icons from nomi811 on GitHub
+Images from Unsplash
 
 ## License
 
@@ -45,8 +49,8 @@ recipes. After sigining in you can add to your list from the drop down menu or a
 [JSON]: https://img.shields.io/badge/JSON-303030?style=for-the-badge&logo=JSON&logoColor=WHITE
 [JSON-url]: https://www.json.org/json-en.html
 [1]: https://github.com/hauprichth
-[2]: https://linkedin.com/in/hannah-haupricht
-[3]: https://github.com/
-[4]: https://linkedin.com/in/
-[5]: https://github.com/
+[2]: https://linkedin.com/in/hannah-haupricht/
+[3]: https://github.com/Ashleywashley3
+[4]: https://linkedin.com/in/ashley-mcmaken3/
+[5]: https://github.com/azimmerman17
 [6]: https://linkedin.com/in/
