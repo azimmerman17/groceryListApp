@@ -21,7 +21,10 @@ router.post('/', async (req, res) => {
 })
 
 router.get('/profile', async (req, res) => {
-  res.json(req.currentUser)
+  const { _id } = req.currentUser
+  const user = await User.findById(_id)
+  .populate('grocery_list')
+  res.send(user)
 })
 
 

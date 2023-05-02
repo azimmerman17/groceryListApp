@@ -18,7 +18,6 @@ try {
    const fetchData = async () => {
     const response = await fetch(`http://localhost:8080/food`)
     const resData = await response.json()
-    console.log(resData)
     setFoodItems(resData)
    }
    fetchData()
@@ -26,19 +25,16 @@ try {
  
   const handleClick = (e, _id) => {
     e.target.checked ?  e.target.value = 'on' :  e.target.value = 'off'
-    console.log(e.target.value, e.target.checked)
    if (e.target.checked === true) {
      setSelectedList([...selectedList, _id])
    } else {
      selectedList.forEach((item, i) => {
-       item = _id ? setSelectedList(selectedList.splice(1,i,)) : null
+       item = _id ? setSelectedList(selectedList.splice(1,i)) : null
        })
    }
   }
-  console.log(selectedList)
   
     let food = fooditems.map((item) => {
-      console.log('init')
       const { _id } = item
         return (
           <Row className="width-80 border rounded p-2 m-auto my-2" key={_id}>
