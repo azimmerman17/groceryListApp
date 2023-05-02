@@ -11,6 +11,7 @@ import FoodList from './components/FoodList'
 
 import CurrentUserProvider from './Contexts/currentUser';
 import GroceryList from './components/GroceryList';
+import Recipes from './Recipes';
 
 
 
@@ -28,6 +29,7 @@ function App() {
             <Route path='/user/list' element={<GroceryList />} />
             <Route path='/foods/new' element={<AddFood />} />
             <Route path='/foods/foodlist' element={<FoodList />} />
+            <Route path='./foodlist/Recipes' element={<Recipes />} />
           </Routes>
         </Router>
       </CurrentUserProvider>
