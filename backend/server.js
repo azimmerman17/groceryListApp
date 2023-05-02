@@ -26,6 +26,10 @@ app.use('/user', userRoutes)
 app.use('/auth', authRoutes)
 app.use('/food', foodRoutes)
 
+app.get('/', (req, res) => {
+    res.send('Backend instance for the Grocery List App.')
+  })
+
 //db connection
 mongoose.set('strictQuery',true);
 mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopology: true})
@@ -33,7 +37,7 @@ mongoose.connect(process.env.MONGO_URI, { useNewUrlParser: true, useUnifiedTopol
     .catch(err => console.error("test", err));
 
 // Configue Port and listen
-const PORT = process.env.PORT || 8080
+const PORT = process.env.PORT
 
 app.listen(PORT, console.log(`Listening on Port ${PORT}`))
 
