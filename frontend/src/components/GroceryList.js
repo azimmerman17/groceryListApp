@@ -1,68 +1,67 @@
 import { useContext, useState, useEffect } from "react"
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
-
+import Row from 'react-bootstrap/Row';
 
 import { CurrentUser } from "../Contexts/currentUser"
-import Stack from "react-bootstrap/Stack"
-import GroceryListItem from "./GroceryListItem"
+import AddToListItem from "./AddToListItem";
 
 const GroceryList = () => {
   const { currentUser } = useContext(CurrentUser)
-
-  let [foodList, setFoodList] = useState([])
   let [selectedList, setSelectedList] = useState([])
-  let groceryList = []
+  let [list, setList] = useState([])
 
   useEffect(() => {
-    const fetchData = async () => {
-      const response = await fetch(`http://localhost:8080/food`)
-      const resData = await response.json()
-      setFoodList(resData)
-    }
-    fetchData()
-  },[currentUser])
+    if (currentUser) {
+      setList(currentUser.grocery_list)
 
-  if (currentUser) {
-    const { grocery_list } = currentUser
-    grocery_list.forEach(item => {
-      foodList.filter(food => item === food._id)
-      groceryList.push(foodList[0])
-    });
-    // setSelectedList(groceryList)
-  }
-
-  const handleSubmit = (e) => {
-    e.preventDefault()
-  }
-  const showList = groceryList.map(item => {
-    try {
-      console.log(item)
+      let idList =[]
+      list.forEach(item => {
         const { _id } = item
-        return (
-          <Stack key={_id} gap={2}>
-            <GroceryListItem item={item} selectedList={selectedList} setSelectedList={setSelectedList}/>
-          </Stack>
-        )
-    } catch (error) {}
+        idList.push(_id)
+      })
 
-    })
-    console.log(groceryList)
-    const showButton = () => {
-      //  this button does not work
-      return (
-        <Button className='p-2 m-1' variant="primary" type='submit' onSubmit={e => handleSubmit(e)}>
-          Save
-        </Button>
-      )
+      setSelectedList(idList)
     }
+    },[currentUser])
 
-  return (
-    <Form>
-      {groceryList.length > 0 ? showList : <h3>There are no items on your grocery list</h3> }
-      {/* {groceryList.length ? showButton() : null } */}
-    </Form>
-  )
+    const handleClick = (e, _id) => {
+      e.target.checked ?  e.target.value = 'on' :  e.target.value = 'off'
+      if (e.target.checked === true) {
+        let list = selectedList
+        selectedList.forEach((item, i) => {
+          item = _id ? list.splice(i,1) : null
+          })
+        setSelectedList(list)
+      } else {
+        setSelectedList([...selectedList, _id])
+      }
+    }
+  
+    let food = list.map((item) => {
+      const { _id } = item
+        return (
+          <Row className="width-80 border rounded p-2 m-auto my-2" key={_id}>
+            <Form.Group controlId="formBasicCheckbox">
+              <Form.Check type="checkbox" label="" onClick={e => handleClick(e, _id)} />
+            </Form.Group>
+              <AddToListItem item={item} />
+          </Row>
+        )  
+    })
+
+    try {
+      return (
+      <Form method='POST' action={`http://localhost:8080/user/${currentUser._id}/food?_method=PUT&food=${selectedList}`}>
+        <Button variant="primary" type="submit" >
+          Save List
+        </Button>
+        {food}
+      </Form>
+      )
+    } catch (error) {
+      
+    }
 }
 
 export default GroceryList
