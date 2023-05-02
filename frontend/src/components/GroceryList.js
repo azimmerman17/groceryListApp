@@ -30,13 +30,17 @@ const GroceryList = () => {
       if (e.target.checked === true) {
         let list = selectedList
         selectedList.forEach((item, i) => {
-          item = _id ? list.splice(i,1) : null
+          if (item === _id) {
+            list.splice(i,1)
+          } 
           })
         setSelectedList(list)
       } else {
         setSelectedList([...selectedList, _id])
       }
     }
+
+    console.log(selectedList)
   
     let food = list.map((item) => {
       const { _id } = item
@@ -53,8 +57,8 @@ const GroceryList = () => {
     try {
       return (
       <Form method='POST' action={`http://localhost:8080/user/${currentUser._id}/food?_method=PUT&food=${selectedList}`}>
-        <Button variant="primary" type="submit" >
-          Save List
+        <Button variant="danger" type="submit" >
+          Remove Selected Items
         </Button>
         {food}
       </Form>
