@@ -13,7 +13,7 @@ const LoginForm = () => {
 
   async function handleSubmit(e) {
       e.preventDefault()
-      const response = await fetch('http://localhost:8080/auth/', {
+      const response = await fetch('https://grocery-list-app-4y2gz122s-azimmerman17.vercel.app/auth/', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

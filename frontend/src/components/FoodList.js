@@ -16,7 +16,7 @@ const FoodList = () => {
 try {
   useEffect(() => {
    const fetchData = async () => {
-    const response = await fetch(`http://localhost:8080/food`)
+    const response = await fetch(`https://grocery-list-app-4y2gz122s-azimmerman17.vercel.app/food`)
     const resData = await response.json()
     setFoodItems(resData)
    }
@@ -47,7 +47,7 @@ try {
     })
 
     return (
-    <Form method='POST' action={`http://localhost:8080/user/${currentUser._id}/food?_method=PUT&food=${selectedList}`}>
+    <Form method='POST' action={`https://grocery-list-app-4y2gz122s-azimmerman17.vercel.app/user/${currentUser._id}/food?_method=PUT&food=${selectedList}`}>
       <Button variant="primary" type="submit" >
         Save List
       </Button>

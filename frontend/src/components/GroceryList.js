@@ -56,7 +56,7 @@ const GroceryList = () => {
 
     try {
       return (
-      <Form method='POST' action={`http://localhost:8080/user/${currentUser._id}/food?_method=PUT&food=${selectedList}`}>
+      <Form method='POST' action={`https://grocery-list-app-4y2gz122s-azimmerman17.vercel.app/user/${currentUser._id}/food?_method=PUT&food=${selectedList}`}>
         <Button variant="danger" type="submit" >
           Remove Selected Items
         </Button>
