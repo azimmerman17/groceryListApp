@@ -17,7 +17,7 @@ const userSchema = new mongoose.Schema({
     required: true,
   },
   grocery_list: [{
-    type: mongoose.Schema.Types.ObjectId, ref: 'Food'
+    type: [mongoose.Schema.Types.ObjectId], ref: 'Food'
   }],
   password_digest: {
     type: String
