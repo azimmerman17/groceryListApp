@@ -53,4 +53,4 @@ Images from Unsplash
 [3]: https://github.com/Ashleywashley3
 [4]: https://linkedin.com/in/ashley-mcmaken3/
 [5]: https://github.com/azimmerman17
-[6]: https://linkedin.com/in/
+[6]: https://linkedin.com/in/azimmerman17
