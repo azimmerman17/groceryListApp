@@ -16,7 +16,7 @@ const AddUser = () => {
 	async function handleSubmit(e) {
 		e.preventDefault()
 
-		await fetch(`http://localhost:8080/user/`, {
+		await fetch(`https://grocery-list-app-4y2gz122s-azimmerman17.vercel.app/user/`, {
 			method: 'POST',
 			headers: {
 				'Content-Type': 'application/json',
@@ -35,7 +35,7 @@ const AddUser = () => {
           <Stack gap={2}>
             <div>
               <h4>Welcome {currentUser.first_name} {currentUser.last_name}</h4>
-              <Button href='http://localhost:3000/foods/foodlist'>Add Food to Grocery List</Button> 
+              <Button href='https://grocery-list-app-psi.vercel.app/foods/foodlist'>Add Food to Grocery List</Button> 
             </div>
             <img src='https://images.unsplash.com/photo-1617500603321-bcd6286973b7?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=774&q=80' width={550} height={700} className="rounded mx-auto d-block" alt='homeimage' />
             <div>

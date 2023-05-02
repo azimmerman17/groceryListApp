@@ -8,7 +8,7 @@ function CurrentUserProvider({ children }) {
 
     useEffect(() => {
         const getLoggedInUser = async () => {
-            let response = await fetch('http://localhost:8080/auth/profile', {
+            let response = await fetch('https://grocery-list-app-4y2gz122s-azimmerman17.vercel.app/auth/profile', {
                 headers: {
                     'Authorization': `Bearer ${localStorage.getItem('token')}`
                 }

@@ -30,7 +30,7 @@ router.put('/:id/food', async (req, res) => {
   req.body.grocery_list = food.split(',')
   
   await User.findByIdAndUpdate(id, req.body)
-  res.redirect('http://localhost:3000/user/list')
+  res.redirect('https://grocery-list-app-psi.vercel.app/user/list')
   
 })
 
