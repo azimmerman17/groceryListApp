@@ -4,7 +4,7 @@ import Form from 'react-bootstrap/Form';
 import Row from 'react-bootstrap/Row';
 import { useContext } from "react";
 
-import Recipes from "../Recipes";
+//import Recipes from "../Recipes";
 import AddToListItem from "./AddToListItem";
 import { CurrentUser } from "../Contexts/currentUser"
 
