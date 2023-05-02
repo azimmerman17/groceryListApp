@@ -26,9 +26,6 @@ app.use('/user', userRoutes)
 app.use('/auth', authRoutes)
 app.use('/food', foodRoutes)
 
-app.get('/', (req, res) => {
-    res.send('Backend instance for the Grocery List App.')
-  })
 
 //db connection
 mongoose.set('strictQuery',true);
